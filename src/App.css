@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+
+
+.card-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .card {
+    background-color:bisque;
+    margin-top: 5%;
+    width: 220px;
+    text-align: center;
+  }
+
+  h1{
+    font-size: 1.em;
+    text-align: start;
+  }
+
+  .rs{
+    margin-top: 15px;
+    font-size: 1.8em;
+    color: chocolate;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: end;
+  }
+  .Product-details{
+    width: 300px;
+  }
+  .tiltle{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2em;
+  }
+
+  .Product-details p{
+    color: #555;
+  }
+
+  .catr{
+    font-size: 2em;
+    text-align: start;
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: 270px;
+  }
+  
+  .Product-details {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .card {
+      width: 100%;
+    }
+  }
+  
+  
+  
+  .Product-details {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .item-details img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+  .item-details h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .item-details p {
+    font-size: 1.1em;
+    color: #555;
+  }
+  
